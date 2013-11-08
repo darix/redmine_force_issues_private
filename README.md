@@ -13,3 +13,14 @@ default:
   - project2
   - project3
 
+
+TODO:
+------
+
+- move from the config/configuration.yml to something that can be changed via
+  the webui
+
+License
+--------
+
+MIT - see license file
