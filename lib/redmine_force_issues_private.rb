@@ -2,7 +2,7 @@
 
 require_dependency 'issue'
 
-module RedmineForceIssuePrivate
+module RedmineForceIssuesPrivate
   module Hooks
     class ModelIssueHook < Redmine::Hook::ViewListener
       def controller_issues_new_before_save(context={})
