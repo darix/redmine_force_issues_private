@@ -1,6 +1,6 @@
 # vim: set sw=2 sts=2 et tw=80 :
 require 'redmine'
-require 'redmine_force_issues_private'
+require_relative 'lib/redmine_force_issues_private'
 
 Redmine::Plugin.register :redmine_force_issues_private do
   name 'Redmine Force issues to be private'
